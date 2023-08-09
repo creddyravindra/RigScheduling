@@ -47,7 +47,7 @@ def ganntchart(rig,n,dates, resources):
       for i in range(1, df.Resource.nunique() + 1):
           colors.append('#%02X%02X%02X' % (r(), r(), r()))
       fig = ff.create_gantt(df, colors=colors, index_col='Resource', show_colorbar=True, group_tasks=True)
-      fig.write_html(r"C:\Users\reddy\Documents\college\projects\rig scheduling\rig scheduling\1st stage\rig gannts\method" +str(n) +' '+ str(rig)+'rigs'+ ".html")
+      fig.write_html(r"c:\users\rig gannts\method" +str(n) +' '+ str(rig)+'rigs'+ ".html")
 
 
 # Total loss calculation for approximation technique 1
@@ -270,7 +270,7 @@ def lowerbound():
 
 # "C:\Users\reddy\Documents\rig scheduling\1st stage\sample_datasets_100.csv"
 # main function
-data_set = pd.read_csv(r"C:\Users\reddy\Documents\college\projects\rig scheduling\rig scheduling\1st stage\Dataset.csv")  # read input data file
+data_set = pd.read_csv(r"Dataset.csv")  # read input data file
 
 # print(" 1 : ASCENDING METHOD  2 : DESCENDING METHOD 3:APPROXIMATION METHOD1 4:APPROXIMATION METHOD2")
 
