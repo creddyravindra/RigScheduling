@@ -1,2 +1,2 @@
 # RigScheduling
-scheduling of wells to rigs using different methods
+scheduling of wells to rigs
